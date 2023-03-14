@@ -1,0 +1,56 @@
+body{
+    align-items: center;
+}
+
+h1{
+    font-family: Algerian;
+    font-style: italic;
+    font-weight: 100;
+}
+h4{
+    color: rgb(255, 112, 112);
+    font-weight: 500;
+    font-family: Chiller;
+    font-size: xx-large;
+    font-style: bold;
+}
+#camera
+{
+    width: 500px;
+    height: 400px;
+    border-color: blanchedalmond;
+
+}
+
+img{
+    width: 500;
+    border-radius: 10;
+    padding: 9;
+    box-shadow: 0 6px 8px 0 rgb(2,2,2,0.2) ;
+}
+
+img:hover{
+    border-radius: 140px;
+}
+.column{
+    float: left;
+    padding: 90;
+    width: 50%;
+}
+
+.resultRow
+{
+    content: "";
+    display: inline;
+    clear: initial;
+    align-items: center;
+}
+.copy_right_footer
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #f30071de;
+    font-family: Castellar;
+}
